@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/profile.png" width="125" height="125" />
+    <img src="@/assets/profile.png" width="125" height="125" />
 
     <div class="wrapper">
       <HelloWorld Post="Ingénieur Devops" Name="Abdelkader Brahem" />
@@ -23,6 +23,7 @@ import HelloWorld from './components/HelloWorld.vue'
 header {
   line-height: 1.5;
   max-height: 100vh;
+  background:bisque;
 }
 
 .logo {
