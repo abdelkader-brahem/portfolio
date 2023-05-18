@@ -1,35 +1,71 @@
-# portfolio
+# Vue Tailwind Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+Fancy and minimal portfolio made on VUE JS and Tailwind CSS.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Light/dark mode toggle
+- Fetched Projects from github repositories
+- Responsive
 
-## Customize configuration
+## Run Locally
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Clone the project
 
-## Project Setup
-
-```sh
-npm install
+```bash
+  git clone https://github.com/saileshrijal/vue-tailwind-portfolio
 ```
 
-### Compile and Hot-Reload for Development
+Go to the project directory
 
-```sh
-npm run dev
+```bash
+  cd vue-tailwind-portfolio
 ```
 
-### Compile and Minify for Production
+Install dependencies
 
-```sh
-npm run build
+```bash
+  npm install
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+Start the server
 
-```sh
-npm run lint
+```bash
+  npm run dev
 ```
+
+Build the project
+
+```bash
+  npm run build
+```
+
+Build project is located on dist directory
+
+## Screenshots
+
+![Home Page - Dark Mode](https://user-images.githubusercontent.com/88402075/235314265-6fa9c022-7061-44c2-8087-17d2b673570f.png)
+
+![About Page - Dark Mode](https://user-images.githubusercontent.com/88402075/235314266-b51998c9-f036-4fb0-883b-13afd6329e54.png)
+
+![Project Page - Dark Mode](https://user-images.githubusercontent.com/88402075/235314268-ed686a64-75c1-4aaa-807c-fedb6687e449.png)
+
+![Home Page - Light Mode](https://user-images.githubusercontent.com/88402075/235314269-a7ec5d07-7a75-4a78-a743-644877c3e0da.png)
+
+![About Page - Light Mode](https://user-images.githubusercontent.com/88402075/235314271-323a14b1-fa17-4474-8527-b139fee9b5f7.png)
+
+![Project Page - Light Mode](https://user-images.githubusercontent.com/88402075/235314262-57c48c9e-9200-48c1-8b54-ec5794811b7b.png)
+
+## 🚀 About Me
+
+I'm a full stack developer...
+
+## 🔗 Links
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://saileshrijal.com.np/)
+
+[![linkedin](https://www.linkedin.com/in/abdelkader-brahem-83728510a/)
+
+## Demo
+
+Link: https://saileshrijal.com.np/

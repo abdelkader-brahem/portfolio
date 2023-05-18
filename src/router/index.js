@@ -1,20 +1,34 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Main_Vue from '../views/Main_Vue.vue'
+import HomeView from '../views/HomeView.vue'
+import AboutView from '../views/AboutView.vue'
+import ProjectView from '../views/ProjectView.vue'
 
-const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
+const routes = [
     {
-      path: '/',
-      name: 'home',
-      component: Main_Vue
+        path: '/',
+        name: 'Home',
+        component: HomeView
     },
     {
-      path: '/Experience',
-      name: 'Experience',
-      component: () => import('../views/Experience.vue')
+        path: '/about',
+        name: 'About',
+        component: AboutView
+    },
+    {
+        path: '/project',
+        name: 'Project',
+        component: ProjectView
+    },
+    {
+        path : '/:catchAll(.*)',
+        redirect : '/'
     }
-  ]
-})
+]
+
+const router = createRouter({
+    history: createWebHistory(),
+    routes
+  })
+  
 
 export default router
