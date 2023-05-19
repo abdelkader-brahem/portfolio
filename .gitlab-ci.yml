@@ -1,5 +1,5 @@
-stage: 
- -build_deploy
+stages: 
+  - build_deploy
 
 build-portfolio:
   stage: build_deploy
