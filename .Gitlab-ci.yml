@@ -1,0 +1,9 @@
+stage: 
+ -build_deploy
+
+build-portfolio:
+  stage: build_deploy
+  script:
+    - ./ci/build_deploy.sh
+  tags:
+    - portfolio
