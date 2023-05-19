@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
 echo "Build & deploy Project"
-docker-compose up --build
+sudo docker-compose up --build
 
