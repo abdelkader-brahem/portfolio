@@ -42,11 +42,3 @@ Build the project
 
 Build project is located on dist directory
 
-
-## 🚀 About Me
-
-I'm a full stack developer...
-
-[![linkedin](https://www.linkedin.com/in/abdelkader-brahem-83728510a/)
-
-
