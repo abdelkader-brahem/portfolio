@@ -1,5 +1,14 @@
 stages: 
+  - mirror
   - build_deploy
+
+
+mirror:
+  stage: mirror
+  script:
+    - ./ci/mirror.sh
+  tags:
+    - portfolio
 
 build-portfolio:
   stage: build_deploy
